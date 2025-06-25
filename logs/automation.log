@@ -91,3 +91,44 @@
 06/22/2025  08:56:17 PM: INFO: ********* Adding Customer Details *********
 06/22/2025  08:56:19 PM: INFO: ********* Account Registration is Passed *********
 06/22/2025  08:56:19 PM: INFO: ********* Test Account Registration Finished *********
+06/24/2025  11:24:59 AM: INFO: ********* Test Login Started *********
+06/24/2025  11:25:01 AM: INFO: ********* Launching Application *********
+06/24/2025  11:25:01 AM: INFO: ********* Clicking on My Account --> Login *********
+06/24/2025  11:36:06 AM: INFO: ********* Test Login Started *********
+06/24/2025  11:36:08 AM: INFO: ********* Launching Application *********
+06/24/2025  11:36:08 AM: INFO: ********* Clicking on My Account --> Login *********
+06/24/2025  11:41:27 AM: INFO: ********* Test Login Started *********
+06/24/2025  11:41:30 AM: INFO: ********* Launching Application *********
+06/24/2025  11:41:30 AM: INFO: ********* Clicking on My Account --> Login *********
+06/24/2025  11:41:32 AM: INFO: ********* Test Login Finished *********
+06/24/2025  11:41:56 AM: INFO: ********* Test Login Started *********
+06/24/2025  11:41:59 AM: INFO: ********* Launching Application *********
+06/24/2025  11:41:59 AM: INFO: ********* Clicking on My Account --> Login *********
+06/24/2025  11:42:01 AM: INFO: ********* Test Login Finished *********
+06/24/2025  11:42:19 AM: INFO: ********* Test Login Started *********
+06/24/2025  11:42:21 AM: INFO: ********* Launching Application *********
+06/24/2025  11:42:21 AM: INFO: ********* Clicking on My Account --> Login *********
+06/24/2025  11:42:24 AM: INFO: ********* Test Login Finished *********
+06/24/2025  11:49:53 AM: INFO: ********* Test Login Started *********
+06/24/2025  11:49:56 AM: INFO: ********* Launching Application *********
+06/24/2025  11:49:56 AM: INFO: ********* Clicking on My Account --> Login *********
+06/24/2025  11:49:58 AM: INFO: ********* Test Login Finished *********
+06/24/2025  05:52:12 PM: INFO: ********* Test Login DDT Started *********
+06/24/2025  05:52:13 PM: INFO: ********* Launching Application *********
+06/24/2025  05:52:47 PM: INFO: ********* Test Login DDT Started *********
+06/24/2025  05:52:49 PM: INFO: ********* Launching Application *********
+06/24/2025  05:53:07 PM: INFO: ********* Test Login DDT Started *********
+06/24/2025  05:53:08 PM: INFO: ********* Launching Application *********
+06/24/2025  05:56:40 PM: INFO: ********* Test Login DDT Started *********
+06/24/2025  05:56:41 PM: INFO: ********* Launching Application *********
+06/24/2025  05:57:37 PM: INFO: ********* Test Login DDT Started *********
+06/24/2025  05:57:38 PM: INFO: ********* Launching Application *********
+06/24/2025  05:58:06 PM: INFO: ********* Test Login DDT Started *********
+06/24/2025  05:58:07 PM: INFO: ********* Launching Application *********
+06/24/2025  05:58:30 PM: INFO: ********* Test Login DDT Started *********
+06/24/2025  05:58:32 PM: INFO: ********* Launching Application *********
+06/24/2025  06:01:29 PM: INFO: ********* Test Login DDT Started *********
+06/24/2025  06:01:30 PM: INFO: ********* Launching Application *********
+06/24/2025  06:03:21 PM: INFO: ********* Test Login DDT Started *********
+06/24/2025  06:03:23 PM: INFO: ********* Launching Application *********
+06/24/2025  06:04:08 PM: INFO: ********* Test Login DDT Finished *********
