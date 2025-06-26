@@ -1,17 +1,20 @@
 import os
+import allure
+import pytest
 from pageObjects.HomePage import HomePage
 from pageObjects.AccountRegistrationPage import AccountRegistrationPage
 from utilities import randomstring
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 
+@allure.severity(allure.severity_level.CRITICAL)
 class Test_001_AccountReg:
-
     baseURL = ReadConfig.getApplicationURL()
     logger = LogGen.loggen()
 
+    @allure.severity(allure.severity_level.CRITICAL)
+    @pytest.mark.sanity
     def test_account_reg(self,setup):
-
         self.logger.info("********* Test Account Registration Started *********")
         self.driver = setup
         self.driver.get(self.baseURL)
@@ -40,7 +43,7 @@ class Test_001_AccountReg:
             self.logger.info("********* Account Registration is Passed *********")
             assert True
         else:
-            self.driver.save_screenshot(os.path.abspath(os.getcwd())+"\\screenshots\\test_account_reg.png")
+            self.driver.save_screenshot(os.path.abspath(os.getcwd())+"\\screenshots\\"+"test_account_reg.png")
             assert False
 
         self.logger.info("********* Test Account Registration Finished *********")

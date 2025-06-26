@@ -1,18 +1,21 @@
 from pageObjects.HomePage import HomePage
-
+import allure
 from pageObjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
 from utilities.customLogger import LogGen
 import pytest
 
-
+@allure.severity(allure.severity_level.NORMAL)
 class TestLogin:
     baseURL = ReadConfig.getApplicationURL()
     logger = LogGen.loggen()
     username = ReadConfig.getUseremail()
     password = ReadConfig.getPassword()
 
-
+    @allure.severity(allure.severity_level.NORMAL)
+    @pytest.mark.smoke
+    @pytest.mark.regression
+    @pytest.mark.sanity
     def test_login(self,setup):
         self.logger.info("********* Test Login Started *********")
         self.driver = setup
