@@ -5,3 +5,4 @@ pytest-html
 pytest-xdist
 pandas
 matplotlib
+allure-pytest
