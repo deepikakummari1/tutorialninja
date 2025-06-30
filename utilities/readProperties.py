@@ -16,3 +16,18 @@ class ReadConfig():
     def getPassword():
         password=(config.get('commonInfo', 'password'))
         return password
+
+    @staticmethod
+    def getProductName():
+        productname = (config.get('commonInfo', 'searchProductName'))
+        return productname
+
+    @staticmethod
+    def getProductQuantity():
+        productqty = (config.get('commonInfo', 'productQuantity'))
+        return productqty
+
+    @staticmethod
+    def getTotalPrice():
+        totalprice = (config.get('commonInfo', 'totalPrice'))
+        return totalprice
