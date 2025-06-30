@@ -12,7 +12,7 @@ class SearchResultsPage():
    def is_search_results_page_exists(self):
        try:
            header = self.driver.find_element(By.XPATH, self.search_page_header_xpath)
-           return "Search -" in header.text
+           return "Search - MacBook" in header.text
        except Exception:
            return False
    def is_product_exist(self, product_name):

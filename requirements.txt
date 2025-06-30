@@ -6,3 +6,4 @@ pytest-xdist
 pandas
 matplotlib
 allure-pytest
+pytest-rerunfailures
