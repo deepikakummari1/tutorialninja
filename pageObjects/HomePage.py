@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 
 from pageObjects.AccountRegistrationPage import AccountRegistrationPage
 from pageObjects.LoginPage import LoginPage
+from pageObjects.SearchResultsPage import SearchResultsPage
 
 
 class HomePage:
@@ -35,3 +36,10 @@ class HomePage:
 
     def clickSearch(self):
         self.driver.find_element(By.XPATH,self.btn_search_xpath).click()
+        return SearchResultsPage(self.driver)
+
+    def isHomePageExists(self):
+        try:
+            return self.driver.title == "Your Store"
+        except:
+            return False
