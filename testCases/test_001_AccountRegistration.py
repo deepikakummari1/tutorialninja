@@ -47,4 +47,6 @@ class Test_001_AccountReg:
             assert False
 
         self.logger.info("******* Test Account Registration Finished *******")
-        print('hello')
+      
+        print("hello")
+        
