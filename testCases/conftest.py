@@ -1,6 +1,5 @@
 import os
 from datetime import datetime
-
 import pytest
 from pytest_metadata.plugin import metadata_key
 from selenium import webdriver

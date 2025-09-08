@@ -46,4 +46,4 @@ class Test_001_AccountReg:
             self.driver.save_screenshot(os.path.abspath(os.getcwd())+"\\screenshots\\"+"test_account_reg.png")
             assert False
 
-        self.logger.info("********* Test Account Registration Finished *********")
+        self.logger.info("******* Test Account Registration Finished *******")
