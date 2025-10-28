@@ -13,3 +13,4 @@ class LogGen:
         file_handler.setFormatter(formatter)
         logger.addHandler(file_handler)
         return logger
+    print()
