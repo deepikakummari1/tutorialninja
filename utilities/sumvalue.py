@@ -14,4 +14,3 @@ for i in range(len(l)):
         sum=l[i]+l[o]
         if sum==a:
             print(l[i]+l[o])
-            print(l[i],l[o])
