@@ -5,3 +5,4 @@ while a>9:
         s=s+int(i)
     a=s
 print(a)
+print()
